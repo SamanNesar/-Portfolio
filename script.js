@@ -10,5 +10,5 @@ function closemenu(){
 
 let openResume = document.getElementById("openResume");
 openResume.onclick=()=>{
-    window.open("Saman Nesar Resume.pdf", '_blank');
+    window.open("./Resources/Saman Nesar Resume.pdf", '_blank');
 }
