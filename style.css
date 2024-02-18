@@ -9,7 +9,7 @@
         height: 70px;
         position: sticky;
         top: 0;
-        border-bottom: 1px solid grey;
+        border-bottom: 2px solid grey;
         background-color: #234365;
     }
     nav{
@@ -37,36 +37,37 @@
         color: rgb(255, 166, 64);
         cursor: pointer;
     }
-    #project_{
-        height: 50px;
-        background-color: rgb(244, 244, 244);
-    }
+    
+    /* ======================Navbar end here========================== */
+
     #home_{
         height: 50px;
         background-color: rgb(244, 244, 244);
-    }
-
-                                /* ======================Navbar end here========================== */
+    }                            
     #home{
         width: 100%;
-        height: 550px;
+        height: 660px;
         background-color: rgb(244, 244, 244);
+    }
+    #home>h3{
+        text-align: center;
+
+        padding-top: 100px;
+        font-size: 35px;
+        color: #426286;
     }
     #home>h1{
         text-align: center;
         color: #234365;
-        margin-bottom: 20px;
-    padding-top: 120px;
-        font-size: 60px;
+        margin-bottom: 25px;
+        padding-top: 10px;
+        font-size: 65px;
         font-weight: bold;
     }
     #home>h2{
         text-align: center;
-        font-size: 30px;
-        color: #234365;
-    }
-    #hi{
-        color: rgb(255, 166, 64);
+        font-size: 40px;
+        color: rgb(214, 147, 70);
     }
     #about_{
         height: 55px;
@@ -78,13 +79,14 @@
         margin: auto;
         justify-content: space-around;
         align-items: center;
-        margin-top: 45px;
+        margin-top: 70px;
     }
     #social>a>img{
         width: 80px;
         height: 80px;
         border-radius: 15px;
-        margin-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
         cursor: pointer;
     }
 
@@ -175,7 +177,7 @@
         padding-top: 25px;
         padding-bottom: 40px;
         font-size: 40px;
-        color: rgb(255, 166, 64);
+        color: #234365;
     }
     #toolstitle{
         margin-top: 40px;
@@ -221,6 +223,10 @@
     }
 
     /* ---------------------------------------Skills end here---------------------------------- */
+    #project_{
+        height: 50px;
+        background-color: rgb(244, 244, 244);
+    }
     #projects{
         width: 100%;
         height: auto;
@@ -244,7 +250,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding: 30px 0;
+        padding: 30px 10px;
     }
     #projects>.project_>.project_img{
         width: 500px;
@@ -253,8 +259,12 @@
         width: 100%;
         border-radius: 20px;
     }
+    #projects>.project_>.projects_Info{
+        text-align: left;
+    }
     #projects>.project_>.projects_Info>p{
         font-size: 18px;
+        text-align: left;
         color: white;
         line-height: 33px;
         font-weight: lighter;
@@ -291,15 +301,15 @@
 
     #contact{
         width: 100%;
-        height: 450px;
+        height: 655px;
         background-color: rgb(244, 244, 244);
     }
     #contact>h1{
     text-align: center;
     font-size: 40px;
     margin-bottom: 25px;
-    padding-top: 35px;
-    color: rgb(255, 166, 64);
+    padding-top: 120px;
+    color: #234365;
     }
     #contact_div{
         width: 100%;
@@ -363,7 +373,8 @@
         width: 80px;
         height: 80px;
         border-radius: 15px;
-        margin-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
         cursor: pointer;
     }
     #copyright{
@@ -374,7 +385,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 17px;
+        font-size: 20px;
     }
     #white{
         color: white;
