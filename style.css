@@ -620,9 +620,6 @@
         font-size: 16px;
         padding: 0 15px;
         }
-        #statistic_div{
-            width: 85%;
-        }
         #projects>.project_>.project_img{
             width: 45%;
         }
@@ -661,7 +658,6 @@
             width: 45%;
         }
         #photo>img{
-            /* width: 310px; */
             width: 100%;
             border-radius: 5%;
             border: 1px solid rgb(44, 44, 44);
@@ -669,4 +665,6 @@
         #info{
             width: 45%;
         }
+       #home{
+          width:50%
     }
